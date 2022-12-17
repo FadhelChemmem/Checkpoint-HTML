@@ -1,19 +1,15 @@
-#video {
-  /*position: absolute; /* postulat de départ */
-  /*top: 50%; left: 50%; /* à 50%/50% du parent référent */
-  /*transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
-}
-
 body {
-  background-color: rgb(173, 183, 20);
+  background-color: #f0b588;
+}
+  ul.Navbar{
+    display: flex;  
+    padding:20;
+    list-style-type: none;
+    background-color: #000000; 
+  }
+  a {
+    display:block;                /* Transformation en block */
+    min-width: 150px;             /* Largeur minimale des liens */
+    text-decoration: none;
+    color: rgb(209, 120, 84); 
   
-}
-ul.index{
-  display: flex;  
-  padding:20;
-  list-style-type: none
-}
-a {
-  display:block;                /* Transformation en block */
-  min-width: 120px;             /* Largeur minimale des liens */
-}
