@@ -1,21 +1,25 @@
 body {
   background-color: #8C6568;
 }
-ul.Navbar{
-  display: flex;  
-  padding:20;
+
+ul.Navbar {
+  display: flex;
+  padding: 20;
   list-style-type: none;
-  background-color: #000000; 
+  background-color: #000000;
 }
 
 
 
-a {
-  display:block;                /* Transformation en block */
-  min-width: 150px;             /* Largeur minimale des liens */
+li > a {
+  display: block;
+  /* Transformation en block */
+  min-width: 150px;
+  /* Largeur minimale des liens */
   text-decoration: none;
-  color: rgb(209, 120, 84); 
+  color: rgb(209, 120, 84);
 }
-section.Middle{
-  background-color: #d51d2c; 
+
+section.Middle {
+  background-color: #d51d2c;
 }
